@@ -1,4 +1,4 @@
-.body {
+body {
     background: #777;
     font-family:'Arial','Helvetica Neue', Helvetica, sans-serif;
     color: #777;
@@ -8,34 +8,69 @@
 }
 .header {
     text-align: center;
-    padding: 50px;
+    padding: 30px;
     background: #ebebeb;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 .nav {
     text-align: center;
-    padding: 50px; 
+    padding: 30px; 
     background: #ebebeb;
+    margin-bottom: 10px;
 }
 .container1 {
+    position: absolute;
+    width: 690px;
     
 }
 .section {
     text-align: center;
     background: #ebebeb;
+    float: left;
+    width: 43%;
+    padding: 10px 20px 15px;
 }
 .article {
     text-align: center;
     background: #777;
     color: #ebebeb;
+    margin-top: 10px;
+    padding: 10px 50px 30px;
 }
 .h {
     text-align: center;
     color: #777;
     background: #ebebeb;
+    padding: 10px 50px;
+    margin-top: 20px
 }
 .p {
     text-align: center;
+    background: #ebebeb;
+    color: #777;
+    margin-top: 10px;
+    padding: 10px 50px;
+}
+.aside {
+   text-align: center;
+   color: #777;
+   background: #ebebeb; 
+   padding: 105px 20px;
+   width: 44%;
+   float: left;
+   margin-left: 7px;
 }
 .footer {
-
+    text-align: center;
+    color: #777;
+    background: #ebebeb;
+    margin-top: 250px;
+    padding: 30px;
+    
+}
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
 }
